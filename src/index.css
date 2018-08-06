@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: rgb(235, 239, 243);
+    padding: 2% 0;
+    margin: 0 auto;
+    /* background: rgb(12, 161, 172); */
+    text-align: center;
+    font-family: 'Spinnaker','cursive';
+}
+.calculator{
+    padding: 1.5% 2%;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: rgba(8, 8, 8, 0.911);
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 7px;
+    font-size: 22px;
+    padding: 0 4%;
+}
+.keypad{
+    padding: 7% 0 5% 0;
+}
+button{
+    color: rgb(66, 65, 65);
+    width: 23%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    margin: 1%;
+    border-radius: 3px;
+    font-size: 28px;
+}
+button:hover{
+    background: rgba(17, 17, 17, 0.911);;
+    color: rgb(233, 231, 231);
+    transition: all .1s ease;
+}
+.bigButton{
+    width: 48%;
+}
